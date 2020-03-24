@@ -1,0 +1,69 @@
+@import '~antd/dist/antd.css';
+
+.layout{
+    width: 100%;
+    padding: 70px;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: auto;
+    pointer-events: auto;
+    background-color: rgba(var(--cdc,255,255,255),1);
+    position: relative;
+}
+
+.article{
+    width: 100%;
+    padding: 0;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0;
+    position: relative;
+    font: inherit;
+    vertical-align: baseline;
+    pointer-events: auto;
+    color: rgba(var(--i1d,38,38,38),1);
+}
+
+.header{
+    height: 72px;
+    padding: 8px;
+    width: 450px;
+    margin-right: 0;
+    position: absolute;
+    top: 0;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    border: 0 solid #000;
+    box-sizing: border-box;
+    display: flex;
+    flex-shrink: 0;
+    margin: 0;
+    font: inherit;
+    vertical-align: baseline;
+    color: rgba(var(--i1d,38,38,38),1);
+    border: 1px solid rgb(235, 237, 240);
+    background-color: linen;
+}
+
+.like{
+    padding: 16px;
+    font-size: 11;
+    display: inline-block;
+}
+
+.likes{
+    padding: 8px;
+    text-align: right;
+    font-size: 18px;
+    font-style: inherit;
+}
