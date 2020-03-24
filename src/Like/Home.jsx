@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 import './Home.css';
 import { Layout } from 'antd';
 import { Card } from 'antd';
-import { LikeFilled, DislikeFilled } from '@ant-design/icons';
 import { Avatar } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 import { PageHeader } from 'antd';
-import { Button } from 'antd';
+import Like from './Like';
 const {  Content,  } = Layout;
 const { Meta } = Card;
 
@@ -16,18 +15,10 @@ class Home extends Component{
         like: 2000
     }
 
-    handleLike = () => {
+    handleCounterChange = (newValue) => {
         this.setState({
-            like: this.state.like + 1
+            like: newValue
         })
-    }
-
-    handleDislike = () => {
-        if(this.state.like > 0){
-            this.setState({
-            like: this.state.like - 1
-            })
-        }
     }
 
     render(){
@@ -47,21 +38,14 @@ class Home extends Component{
                     padding:16 }}
                 cover={<img alt="example" src="https://i.pinimg.com/564x/87/0d/67/870d67df4ccbda86e09ac8f4f369ee51.jpg" />}
             >
+            
             <div>
-                <p  className="likes">{this.state.like} likes</p>
+                <p className="likes">{this.state.like} Likes</p>
             </div>
-            <Meta title="Channel Perfumery" description="What about this? How many like i will get? Please, click love below!" /> 
 
-            <div className="like">
-                <Button type="primary" shape="circle" onClick={this.handleLike}>
-                    <LikeFilled />
-                </Button>
-            </div>
-            <div className="like">
-                <Button type="danger" shape="circle" onClick={this.handleDislike}>
-                    <DislikeFilled />
-                </Button>
-            </div>
+            <Meta title="Channel Perfumery" description="What about this? How many like i will get? Please, click love below!" /> 
+            
+            <Like onCounterChange={(value) => this.handleCounterChange(value)} /> 
 
             </Card>
             

@@ -61,6 +61,10 @@
     display: inline-block;
 }
 
+.button{
+    padding: 16px;
+}
+
 .likes{
     padding: 8px;
     text-align: right;
