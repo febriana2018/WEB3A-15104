@@ -2,7 +2,7 @@
   "name": "web3",
   "version": "0.1.0",
   "private": false,
-  "homepage": "“https://febriana2018.github.io/WEB3A-15104-Febriana-REACT",
+  "homepage": "https://febriana2018.github.io/WEB3A-15104-Febriana-REACT",
   "dependencies": {
     "antd": "^4.0.2",
     "cra-template": "1.0.2",
