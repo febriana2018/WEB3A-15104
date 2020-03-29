@@ -1,0 +1,147 @@
+@import '~antd/dist/antd.css';
+
+.bg_image, .banner-area {
+    position: relative;
+    bottom: 0px;
+    top: 0px;
+    background: url(https://image.freepik.com/free-photo/empty-wooden-table-with-colorful-smoke-float-up-dark-background_68495-150.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    height: 100vh;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.align-items-center {
+    -webkit-box-align: center !important;
+    -webkit-align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.d-flex {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px){
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px){
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px){
+    .container {
+        max-width: 540px;
+    }
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.banner-area .header-content {
+    z-index: 1;
+    margin-right: 50px;
+}
+.zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+}
+
+.banner-area .header-content h4 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.text-white {
+    color: white !important;
+}
+h4 {
+    text-transform: initial;
+    line-height: 48px;
+}
+
+h4, .h4 {
+    font-size: 1.2rem;
+}
+
+.banner-area .header-content h3 {
+    font-weight: 500;
+    line-height: 48px;
+    font-size: 72px;
+}
+
+.m-bottom-35 {
+    margin-bottom: 35px;
+}
+
+.m-top-20 {
+    margin-top: 20px;
+}
+
+.text-white {
+    color: white !important;
+}
+
+h3, .h3 {
+    font-size: 1rem;
+}
+
+.m-bottom-40 {
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.75rem;
+    color: #7a82a6;
+    font-weight: 400;
+}
+
+.banner-area .header-content p {
+    font-size: 16px;
+    line-height: 1.6875rem;
+    font-weight: 500;
+}
+
+.btn-lg{
+    height: 50px;
+    background-image: linear-gradient(to right, #ff458a, #c330d6);
+    color: white;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8%;
+    padding: 12px 20px;
+    font-size: 16px;
+}

@@ -1,10 +1,10 @@
 import React, {Component} from 'react';  
 import {Switch, Route, BrowserRouter} from 'react-router-dom';  
-import GetStart from './Routing/GetStart';
-import LandingPage from './Routing/LandingPage';
-import ContactPage from './Routing/Contact';
+import GetStart from '../Routing/GetStart';
+import LandingPage from '../Routing/LandingPage';
+import ContactPage from '../Routing/Contact';
 
-class App extends Component {  
+class Router extends Component {  
     render() {  
         return (  
         <BrowserRouter>
@@ -17,4 +17,4 @@ class App extends Component {
     );  
 }  
 }  
-export default App;
+export default Router;
