@@ -9,7 +9,7 @@ class App extends Component {
         <>
             <Header />
             <Routing />
-        </>                   
+        </> //cek deploy                  
     );  
 }  
 }  
