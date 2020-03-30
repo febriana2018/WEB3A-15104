@@ -7,13 +7,11 @@ import ContactPage from '../Routing/Contact';
 class Router extends Component {  
     render() {  
         return (  
-        <BrowserRouter>
             <Switch>  
                 <Route path="/" exact component={LandingPage}/>
                 <Route path="/contact" component={ContactPage}/>
                 <Route path="/start" component={GetStart}/>
-            </Switch>
-        </BrowserRouter>                   
+            </Switch>                
     );  
 }  
 }  

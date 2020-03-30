@@ -1,9 +1,10 @@
 .header{
-    background: black;
+    border-color: black;
     transition: 0.4s;
     position: absolute;
     width: 100%;
     display: block;
+    background-color: black;
 }
 
 @media (min-width: 992px){
