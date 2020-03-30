@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/WEB3A-15104-Febriana-REACT/static/css/main.6c57eb45.chunk.css",
-    "main.js": "/WEB3A-15104-Febriana-REACT/static/js/main.b6c206bf.chunk.js",
-    "main.js.map": "/WEB3A-15104-Febriana-REACT/static/js/main.b6c206bf.chunk.js.map",
+    "main.css": "/WEB3A-15104-Febriana-REACT/static/css/main.df413ef2.chunk.css",
+    "main.js": "/WEB3A-15104-Febriana-REACT/static/js/main.9d4a6a2c.chunk.js",
+    "main.js.map": "/WEB3A-15104-Febriana-REACT/static/js/main.9d4a6a2c.chunk.js.map",
     "runtime-main.js": "/WEB3A-15104-Febriana-REACT/static/js/runtime-main.4b69b492.js",
     "runtime-main.js.map": "/WEB3A-15104-Febriana-REACT/static/js/runtime-main.4b69b492.js.map",
     "static/css/2.1bd2ab2f.chunk.css": "/WEB3A-15104-Febriana-REACT/static/css/2.1bd2ab2f.chunk.css",
-    "static/js/2.ba773f6b.chunk.js": "/WEB3A-15104-Febriana-REACT/static/js/2.ba773f6b.chunk.js",
-    "static/js/2.ba773f6b.chunk.js.map": "/WEB3A-15104-Febriana-REACT/static/js/2.ba773f6b.chunk.js.map",
+    "static/js/2.f1466932.chunk.js": "/WEB3A-15104-Febriana-REACT/static/js/2.f1466932.chunk.js",
+    "static/js/2.f1466932.chunk.js.map": "/WEB3A-15104-Febriana-REACT/static/js/2.f1466932.chunk.js.map",
     "index.html": "/WEB3A-15104-Febriana-REACT/index.html",
-    "precache-manifest.562dccb95773e8cc810f282d5ee8f155.js": "/WEB3A-15104-Febriana-REACT/precache-manifest.562dccb95773e8cc810f282d5ee8f155.js",
+    "precache-manifest.62daa6429fdecf10ab6c0ce15187c58b.js": "/WEB3A-15104-Febriana-REACT/precache-manifest.62daa6429fdecf10ab6c0ce15187c58b.js",
     "service-worker.js": "/WEB3A-15104-Febriana-REACT/service-worker.js",
     "static/css/2.1bd2ab2f.chunk.css.map": "/WEB3A-15104-Febriana-REACT/static/css/2.1bd2ab2f.chunk.css.map",
-    "static/css/main.6c57eb45.chunk.css.map": "/WEB3A-15104-Febriana-REACT/static/css/main.6c57eb45.chunk.css.map",
-    "static/js/2.ba773f6b.chunk.js.LICENSE.txt": "/WEB3A-15104-Febriana-REACT/static/js/2.ba773f6b.chunk.js.LICENSE.txt"
+    "static/css/main.df413ef2.chunk.css.map": "/WEB3A-15104-Febriana-REACT/static/css/main.df413ef2.chunk.css.map",
+    "static/js/2.f1466932.chunk.js.LICENSE.txt": "/WEB3A-15104-Febriana-REACT/static/js/2.f1466932.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4b69b492.js",
     "static/css/2.1bd2ab2f.chunk.css",
-    "static/js/2.ba773f6b.chunk.js",
-    "static/css/main.6c57eb45.chunk.css",
-    "static/js/main.b6c206bf.chunk.js"
+    "static/js/2.f1466932.chunk.js",
+    "static/css/main.df413ef2.chunk.css",
+    "static/js/main.9d4a6a2c.chunk.js"
   ]
 }

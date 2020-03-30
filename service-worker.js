@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/WEB3A-15104-Febriana-REACT/precache-manifest.562dccb95773e8cc810f282d5ee8f155.js"
+  "/WEB3A-15104-Febriana-REACT/precache-manifest.62daa6429fdecf10ab6c0ce15187c58b.js"
 );
 
 self.addEventListener('message', (event) => {
