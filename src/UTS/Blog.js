@@ -77,6 +77,11 @@ class Blog extends React.Component {
           <div className="col-md-6" key={index}>
             <ArticleCard
               id={article.id}
+              categoryName={article.categoryName}
+              postedAt={article.postedAt}
+              summary={article.summary}
+              imageUrl={article.imageUrl}
+              title={article.title}
             />
           </div>
         ))}
