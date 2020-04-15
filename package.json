@@ -1,12 +1,14 @@
 {
   "name": "web3",
   "version": "0.1.0",
-  "private": false, 
+  "private": false,
   "homepage": "https://febriana2018.github.io/WEB3A-15104-Febriana-REACT",
   "dependencies": {
     "antd": "^4.0.2",
+    "bootstrap": "^4.4.1",
     "cra-template": "1.0.2",
     "react": "^16.13.0",
+    "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0"

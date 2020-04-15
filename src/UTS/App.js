@@ -1,20 +1,3 @@
-// import React, {Component} from 'react';  
-// import LandingPage from './Routing/LandingPage';
-// import Routing from './Router/router.js';
-// import Header from './Routing/Header';
-
-// class App extends Component {  
-//     render() {  
-//         return (  
-//         <>
-//             <Header />
-//             <Routing />
-//         </> //cek deploy                  
-//     );  
-// }  
-// }  
-// export default App;
-
 import React from 'react';  
 import {
   BrowserRouter,
@@ -22,9 +5,9 @@ import {
   Route
 } 
 from "react-router-dom";
-import Header from "./UTS/Header";
-import Blog from "./UTS/Blog.js";
-import BlogDetail from "./UTS/BlogDetail";
+import Header from "./Header";
+import Blog from "./Blog.js";
+import BlogDetail from "./BlogDetail";
 
 //install bootstrap dulu
 import 'bootstrap/dist/css/bootstrap.min.css';
