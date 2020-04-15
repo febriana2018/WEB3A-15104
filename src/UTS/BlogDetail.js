@@ -2,15 +2,16 @@ import React from "react";
 import "./setupProxy.js";
 
 function ArticleCard(props) {
+  const  {title, summary, imageUrl}  = props;
   return (
     <div className="col-lg-8">
-      <h1 className="mt-4">title</h1>
+      <h1 className="mt-4">{title}</h1>
 
-      <img className="img-fluid rounded" src="imageUrl" alt="title" />
+      <img className="img-fluid rounded" src={imageUrl} alt={title} />
 
       <hr />
 
-      <p className="lead">summary</p>
+      <p className="lead">{summary}</p>
       <blockquote className="blockquote">
         <p className="mb-0">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -40,7 +41,7 @@ function ArticleCard(props) {
   );
 }
 
-class BlogDetail extends React.Component {
+class DetailBlog extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -95,6 +96,4 @@ class BlogDetail extends React.Component {
   }
 }
 
-export default BlogDetail;
-
-
+export default DetailBlog;

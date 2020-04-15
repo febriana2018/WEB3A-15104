@@ -2,17 +2,16 @@ import React from "react";
 import {
   Link
 } from "react-router-dom";
-import "./setupProxy.js";
 
-function ArticleCard(props) {
-  const { id, categoryName, title, postedAt, summary, imageUrl } = props;
+function ArticleCard(prop) {
+  const { id, categoryName, title , postedAt, summary, imageUrl} = prop;
   return (
     <div className="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
       <div className="col p-4 d-flex flex-column position-static">
         <strong className="d-inline-block mb-2 text-primary">
           {categoryName}
         </strong>
-        <h3 className="mb-0">{this.title}</h3>
+        <h3 className="mb-0">{title}</h3>
         <div className="mb-1 text-muted">{postedAt}</div>
         <p className="card-text mb-auto">{summary}</p>
         <Link to={"/blog/"+ id} className="stretched-link">
